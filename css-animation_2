@@ -18,35 +18,17 @@
             box-shadow: rgb(144, 0, 255) 0 0 90px;
         }
         
-.loader2 {
-        border-top: 15px solid #ffc054;
-        border-bottom: 15px solid #ffc054;
-        border-right: 15px solid #1100ff;
-        border-left: 15px solid #1100ff;
-        border-radius: 55%;
-        width: 15px;
-        height: 10px;
-        animation: turn 0.1s linear infinite;
-        margin: 130px auto;
-}
-
         body {
             background-color: black;
         }
         
         @keyframes spin {
             0% { transform: rotate(0deg); }
-            100% { transform: rotate(1190deg); }
-        }
-        @keyframes turn {
-            0% {transform: rotate(10deg);}
-            100% {transform: rotate(350deg);}
+            100% { transform: rotate(720deg); }
         }
     </style>
 </head>
 <body>
-    <div class="loader">
-        <div class="loader2"></div>
-    </div>
+    <div class="loader"></div>
 </body>
 </html>
